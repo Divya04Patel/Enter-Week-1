@@ -64,8 +64,8 @@ To develop a **machine learning regression model** that can accurately predict a
 |-----------|-------------------|
 | Programming Language | Python 🐍 |
 | Libraries | pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost |
-| IDE / Notebook | Jupyter Notebook / VS Code |
-| Platform | Kaggle / GitHub |
+| IDE / Notebook | VS Code |
+| Platform | Kaggle |
 
 ---
 
