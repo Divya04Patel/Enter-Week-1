@@ -67,16 +67,7 @@ To develop a **machine learning regression model** that can accurately predict a
 | IDE / Notebook | VS Code |
 | Platform | Kaggle |
 
----
 
-## 📂 Project Structure  
-EV-Range-Prediction/
-│
-├── data/                 # Dataset files
-├── notebooks/            # EDA and model training notebooks
-├── src/                  # Scripts for data processing & model building
-├── README.md             # Project overview and documentation
-└── requirements.txt      # List of dependencies
 
 
 
