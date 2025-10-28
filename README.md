@@ -1,50 +1,74 @@
-🚗 Electric Vehicle Range Prediction
-📘 Overview
+# ⚡ Electric Vehicle Range Prediction  
 
-This project aims to predict the driving range of Electric Vehicles (EVs) using their technical specifications such as battery capacity, motor power, efficiency, and vehicle weight.
-By applying machine learning regression techniques, the project helps estimate how far an EV can travel on a full charge — assisting manufacturers, researchers, and buyers in evaluating EV performance.
+## 🧭 Overview  
+This project aims to **predict the driving range of Electric Vehicles (EVs)** using their **technical specifications** such as battery capacity, motor power, efficiency, and vehicle weight.  
+By applying **machine learning regression models**, the project estimates how far an EV can travel on a full charge — helping **manufacturers, researchers, and buyers** make informed decisions about EV performance and efficiency.  
 
-📊 Dataset
+---
 
-Source: Electric Vehicle Specifications and Prices – Kaggle
+## 📊 Dataset  
+**Source:** [Electric Vehicle Specifications and Prices – Kaggle](https://www.kaggle.com/datasets/fatihilhan/electric-vehicle-specifications-and-prices)  
 
-Description:
-The dataset contains details of various EV models including:
+**Description:**  
+The dataset contains detailed information about various EV models, including the following key attributes:  
+- 🔋 **Battery Capacity (kWh)**  
+- ⚙️ **Power (kW or HP)**  
+- 🚘 **Vehicle Weight**  
+- 🕐 **Acceleration (0–100 km/h)**  
+- 💰 **Price**  
+- ⚡ **Energy Consumption**  
 
-Battery capacity (kWh)
+**Target Variable:**  
+- 🚗 **Electric Range (km / miles)**  
 
-Power (kW or HP)
+---
 
-Vehicle weight
+## 🎯 Objective  
+To develop a **machine learning regression model** that can accurately predict an EV’s **driving range** based on its physical and technical specifications.  
 
-Acceleration
+---
 
-Energy consumption
+## ⚙️ Workflow / Methodology  
+1. **Data Preprocessing**  
+   - Handle missing or inconsistent data  
+   - Convert categorical data (like brand/type) into numerical form  
+   - Normalize numerical features for better model performance  
 
-Price and type
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualize relationships between features and EV range  
+   - Identify correlations between power, battery, and range  
 
-Target Variable: Electric Range (in kilometers or miles)
+3. **Model Training**  
+   - Train regression models such as:  
+     - Linear Regression  
+     - Random Forest Regressor  
+     - XGBoost Regressor  
 
-🧠 Objective
+4. **Model Evaluation**  
+   - Use performance metrics like:  
+     - MAE (Mean Absolute Error)  
+     - RMSE (Root Mean Squared Error)  
+     - R² Score  
 
-To build and evaluate a machine learning model that accurately predicts the EV range based on key technical attributes.
+---
 
-⚙️ Methodology
+## 📈 Expected Outcome  
+- ✅ Predict EV range with high accuracy  
+- 📊 Visualize how features (battery, weight, etc.) impact range  
+- 🔍 Provide insights to improve EV design and efficiency  
 
-Data Preprocessing – Handle missing values, normalize numeric features, and encode categorical variables.
+---
 
-Exploratory Data Analysis (EDA) – Understand relationships between features and EV range.
+## 💻 Tech Stack  
+| Category | Tools / Libraries |
+|-----------|-------------------|
+| Programming Language | Python 🐍 |
+| Libraries | pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost |
+| IDE / Notebook | Jupyter Notebook / VS Code |
+| Platform | Kaggle / GitHub |
 
-Feature Selection – Identify important variables like battery size, weight, and efficiency.
+---
 
-Model Training – Use regression algorithms such as Linear Regression, Random Forest, and XGBoost.
+## 📂 Project Structure  
 
-Model Evaluation – Compare models using metrics like MAE, RMSE, and R² score.
 
-📈 Expected Outcome
-
-Predict EV driving range with high accuracy.
-
-Visualize how features (like battery size or vehicle weight) affect range.
-
-Provide insights for optimizing EV design and performance.
