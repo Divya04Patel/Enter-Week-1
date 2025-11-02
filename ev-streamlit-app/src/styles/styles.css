@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+
+.sidebar .sidebar-content h2 {
+    color: #007bff;
+}
+
+.stButton > button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3;
+}
+
+.dataframe {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.stDownloadButton > button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #218838;
+}
