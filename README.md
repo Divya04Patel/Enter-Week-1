@@ -58,6 +58,14 @@ To develop a **machine learning regression model** that can accurately predict a
 - 🔍 Provide insights to improve EV design and efficiency  
 
 ---
+<img width="1919" height="810" alt="image" src="https://github.com/user-attachments/assets/f7ef0270-82b4-4a65-af04-4129768432fe" />
+
+<img width="1919" height="830" alt="image" src="https://github.com/user-attachments/assets/0116d187-d1a3-4750-a61b-9ae707cd32c3" />
+
+<img width="1917" height="811" alt="image" src="https://github.com/user-attachments/assets/eb4469a7-468f-4866-ac94-4b2ca7143c43" />
+
+
+
 
 ## 💻 Tech Stack  
 | Category | Tools / Libraries |
@@ -66,6 +74,7 @@ To develop a **machine learning regression model** that can accurately predict a
 | Libraries | pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost |
 | IDE / Notebook | VS Code |
 | Platform | Kaggle |
+
 
 
 
