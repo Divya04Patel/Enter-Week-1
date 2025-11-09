@@ -75,6 +75,12 @@ To develop a **machine learning regression model** that can accurately predict a
 | IDE / Notebook | VS Code |
 | Platform | Kaggle |
 
+<img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/e3bcf6dc-a577-443f-aa2d-5c46e9b13c6b" />
+
+<img width="1154" height="430" alt="image" src="https://github.com/user-attachments/assets/788d6fd4-a024-4455-accc-168f6ad6fe63" />
+
+
+
 
 
 
