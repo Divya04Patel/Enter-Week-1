@@ -6,8 +6,14 @@ import sys
 import os
 from pathlib import Path
 
-# Make sure Streamlit can find your preprocessing script (resolve relative to this file)
+# load custom css (add this near top, after base_dir calculation)
 base_dir = Path(__file__).resolve().parent.parent
+css_path = base_dir / "webapp" / "assets" / "style.css"
+if css_path.exists():
+    with open(css_path, "r", encoding="utf-8") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+# Make sure Streamlit can find your preprocessing script (resolve relative to this file)
 src_dir = base_dir / "src"
 sys.path.append(str(src_dir))
 

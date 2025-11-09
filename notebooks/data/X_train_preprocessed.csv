@@ -1,0 +1,3 @@
+Battery_Capacity_kWh,Power_hp,Efficiency_WhPerKm,Weight_kg,battery_Wh,battery_over_eff,energy_density_kWh_per_kg
+-1.0,-1.0,1.0,-1.0,-1.0,-0.9999999999999997,-1.0
+1.0,1.0,-1.0,1.0,1.0,1.0000000000000004,1.0

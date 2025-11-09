@@ -1,0 +1,4 @@
+Battery_Capacity_kWh,Power_hp,Efficiency_WhPerKm,Weight_kg,Range_km
+50,200,150,1500,300
+75,250,180,1700,400
+100,300,170,1800,500
